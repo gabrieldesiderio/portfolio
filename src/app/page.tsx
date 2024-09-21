@@ -138,6 +138,8 @@ export default function Home() {
           <Badge>Laravel</Badge>
           <Badge>Blade</Badge>
           <Badge>WordPress</Badge>
+          <Badge>Sage</Badge>
+          <Badge>Bedrock</Badge>
           <Badge>MySQL</Badge>
           <Badge>Postgres</Badge>
           <Badge>Docker</Badge>
@@ -150,26 +152,29 @@ export default function Home() {
         <ul className="space-y-6">
           <li>
             <h3 className="text-lg font-semibold">QR Code Generator</h3>
-            <p className="text-sm">Gerador de QR Code online</p>
+            <p className="text-sm">
+              Projeto construído para gerar QR Codes de forma dinâmica a partir
+              de uma URL inserida pelo usuário.
+            </p>
           </li>
           <li>
             <h3 className="text-lg font-semibold">Tailwind ADMIN</h3>
             <p className="text-sm">
               UI construída com tailwindcss utilizando o conceito de Composition
-              Pattern
+              Pattern.
             </p>
           </li>
           <li>
             <h3 className="text-lg font-semibold">Kanban Board</h3>
             <p className="text-sm">
-              Um quadro kanban para gerenciamento de tarefas
+              Um quadro kanban para gerenciamento de tarefas.
             </p>
           </li>
           <li>
             <h3 className="text-lg font-semibold">Forum API</h3>
             <p className="text-sm">
               Um serviço de fórum, utilizando os conceitos de Clean
-              Architecture, SOLID e DDD
+              Architecture, SOLID e DDD.
             </p>
           </li>
         </ul>
@@ -192,7 +197,7 @@ export default function Home() {
             </Link>{' '}
             ou{' '}
             <a href="mailto:gabrieldesd7@gmail.com" className="underline">
-              enviar um e-mail
+              enviar um e-mail para gabrieldesd7@gmail.com
             </a>
             .
           </p>
