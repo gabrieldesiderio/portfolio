@@ -127,10 +127,10 @@ export default function Home() {
         <div className="flex flex-wrap gap-1.5">
           <Badge>Javascript</Badge>
           <Badge>Typescript</Badge>
-          <Badge>Nodejs</Badge>
-          <Badge>Nestjs</Badge>
+          <Badge>Node.js</Badge>
+          <Badge>NestJS</Badge>
           <Badge>Fastify</Badge>
-          <Badge>Reactjs</Badge>
+          <Badge>React</Badge>
           <Badge>Next.js</Badge>
           <Badge>React Native</Badge>
           <Badge>Expo</Badge>
@@ -138,8 +138,8 @@ export default function Home() {
           <Badge>Laravel</Badge>
           <Badge>Blade</Badge>
           <Badge>WordPress</Badge>
-          <Badge>Sage</Badge>
           <Badge>Bedrock</Badge>
+          <Badge>Sage</Badge>
           <Badge>MySQL</Badge>
           <Badge>Postgres</Badge>
           <Badge>Docker</Badge>
