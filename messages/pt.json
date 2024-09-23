@@ -64,23 +64,31 @@
       "items": {
         "0": {
           "title": "QR Code Generator",
+          "stack": ["react", "next.js", "typescript", "zod", "shadcn/ui", "tailwindcss"],
           "description": "Projeto construído para gerar QR Codes de forma dinâmica a partir de uma URL inserida pelo usuário.",
-          "stack": ["react", "next.js", "typescript", "zod", "shadcn/ui", "tailwindcss"]
+          "app": "https://qrcode-generator.gabrieldesiderio.dev/",
+          "repository": "https://github.com/gabrieldesiderio/qrcode-generator"
         },
         "1": {
           "title": "Tailwind ADMIN",
           "description": "UI construída com tailwindcss utilizando o conceito de Composition Pattern.",
-          "stack": ["react", "next.js", "typescript", "tailwindcss", "framer motion", "drag and drop"]
+          "stack": ["react", "next.js", "typescript", "tailwindcss", "framer motion"],
+          "app": "https://tailwind-admin.gabrieldesiderio.dev/",
+          "repository": "https://github.com/gabrieldesiderio/tailwind-next"
         },
         "2": {
           "title": "Kanban Board",
           "description": "Um quadro kanban para gerenciamento de tarefas.",
-          "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "framer motion"]
+          "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "framer motion", "drag and drop"],
+          "app": "https://kanban-board.gabrieldesiderio.dev/",
+          "repository": "https://github.com/gabrieldesiderio/kanban-board"
         },
         "3": {
           "title": "Fórum API",
-          "description": "Um serviço de fórum, utilizando os conceitos de Clean Architecture, SOLID e DDD.",
-          "stack": ["node.js", "nestjs", "typescript", "prisma", "vitest", "redis"]
+          "description": "Um serviço de fórum que foi desenvolvido utilizando os conceitos de Clean Architecture, SOLID e DDD.",
+          "stack": ["node.js", "nestjs", "typescript", "prisma", "vitest", "redis", "jwt", "zod"],
+          "app": "",
+          "repository": "https://github.com/gabrieldesiderio/forum-nest-clead-ddd"
         }
       }
     }
