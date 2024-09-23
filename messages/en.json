@@ -5,28 +5,28 @@
       "summary": "Passionate about technology and business, I believe that true magic happens when ideas transform into innovative solutions. For me, every challenge is an opportunity for growth and learning, and this mindset drives my career. I am always seeking new horizons to apply my creativity and knowledge, turning concepts into realities that positively impact the world around me."
     },
     "skills": {
-      "title": "Habilidades"
+      "title": "Skills"
     },
     "xp": {
-      "title": "Experiências",
+      "title": "Experience",
       "items": {
         "0": {
           "name": "Khipo",
           "city": "São Paulo, BR",
-          "position": "Desenvolvedor full stack",
+          "position": "Full stack developer",
           "period": "Jul 2024 - atual"
         },
         "1": {
           "name": "Joyjet",
           "city": "Paris, FR",
-          "position": "Desenvolvedor full stack",
-          "period": "Fev 2022 - Jul 2024"
+          "position": "Full stack developer",
+          "period": "Feb 2022 - Jul 2024"
         },
         "2": {
           "name": "Studio Visual",
           "city": "São Paulo, BR",
           "position": "Team Lead & Tech Lead",
-          "period": "Nov 2022 - Fev 2022"
+          "period": "Nov 2022 - Feb 2022"
         },
         "3": {
           "name": "Mobister",
@@ -37,55 +37,56 @@
         "4": {
           "name": "Nova M3",
           "city": "Natal, RN",
-          "position": "Desenvolvedor web",
-          "period": "Mai 2018 - Dez 2018"
+          "position": "Web developer",
+          "period": "May 2018 - Dec 2018"
         }
       }
     },
     "academic": {
-      "title": "Formação acadêmica",
+      "title": "Academic Background",
       "items": {
         "0": {
-          "level": "Tecnólogo",
-          "title": "Gestão de Tecnologia da Informação",
+          "level": "Technologist",
+          "title": "Information Technology Management",
           "company": "Universidade Potiguar",
           "period": "2019 - 2022"
         },
         "1": {
-          "level": "Técnico",
-          "title": "Informática",
+          "level": "Technician",
+          "title": "Information Technology",
           "company": "EEEP Professora Maria Célia Pinheiro Falcão",
           "period": "2012 - 2015"
         }
       }
     },
     "projects": {
-      "title": "Projetos",
+      "title": "Projects",
+      "codeButtonText": "Code",
       "items": {
         "0": {
           "title": "QR Code Generator",
           "stack": ["react", "next.js", "typescript", "zod", "shadcn/ui", "tailwindcss"],
-          "description": "Projeto construído para gerar QR Codes de forma dinâmica a partir de uma URL inserida pelo usuário.",
+          "description": "Project developed to dynamically generate QR Codes from a URL provided by the user.",
           "app": "https://qrcode-generator.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/qrcode-generator"
         },
         "1": {
           "title": "Tailwind ADMIN",
-          "description": "UI construída com tailwindcss utilizando o conceito de Composition Pattern.",
+          "description": "Admin UI built with Tailwind CSS, employing the Composition Pattern concept.",
           "stack": ["react", "next.js", "typescript", "tailwindcss", "framer motion"],
           "app": "https://tailwind-admin.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/tailwind-next"
         },
         "2": {
           "title": "Kanban Board",
-          "description": "Um quadro kanban para gerenciamento de tarefas.",
+          "description": "Kanban board for efficient task management.",
           "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "framer motion", "drag and drop"],
           "app": "https://kanban-board.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/kanban-board"
         },
         "3": {
           "title": "Fórum API",
-          "description": "Um serviço de fórum que foi desenvolvido utilizando os conceitos de Clean Architecture, SOLID e DDD.",
+          "description": "Forum service developed using the principles of Clean Architecture, SOLID, and Domain-Driven Design (DDD).",
           "stack": ["node.js", "nestjs", "typescript", "prisma", "vitest", "redis", "jwt", "zod"],
           "app": "",
           "repository": "https://github.com/gabrieldesiderio/forum-nest-clead-ddd"

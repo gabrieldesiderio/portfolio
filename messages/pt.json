@@ -61,31 +61,32 @@
     },
     "projects": {
       "title": "Projetos",
+      "codeButtonText": "Código",
       "items": {
         "0": {
           "title": "QR Code Generator",
           "stack": ["react", "next.js", "typescript", "zod", "shadcn/ui", "tailwindcss"],
-          "description": "Projeto construído para gerar QR Codes de forma dinâmica a partir de uma URL inserida pelo usuário.",
+          "description": "Projeto desenvolvido para gerar QR Codes de forma dinâmica a partir de uma URL fornecida pelo usuário.",
           "app": "https://qrcode-generator.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/qrcode-generator"
         },
         "1": {
           "title": "Tailwind ADMIN",
-          "description": "UI construída com tailwindcss utilizando o conceito de Composition Pattern.",
+          "description": "Admin UI desenvolvida com Tailwind CSS, utilizando o conceito de Composition Pattern.",
           "stack": ["react", "next.js", "typescript", "tailwindcss", "framer motion"],
           "app": "https://tailwind-admin.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/tailwind-next"
         },
         "2": {
           "title": "Kanban Board",
-          "description": "Um quadro kanban para gerenciamento de tarefas.",
+          "description": "Quadro Kanban para gerenciamento eficiente de tarefas.",
           "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "framer motion", "drag and drop"],
           "app": "https://kanban-board.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/kanban-board"
         },
         "3": {
           "title": "Fórum API",
-          "description": "Um serviço de fórum que foi desenvolvido utilizando os conceitos de Clean Architecture, SOLID e DDD.",
+          "description": "Serviço de fórum desenvolvido com os princípios de Clean Architecture, SOLID e Domain-Driven Design (DDD).",
           "stack": ["node.js", "nestjs", "typescript", "prisma", "vitest", "redis", "jwt", "zod"],
           "app": "",
           "repository": "https://github.com/gabrieldesiderio/forum-nest-clead-ddd"

@@ -52,7 +52,7 @@ export function Projects() {
                     className="flex items-center gap-1 font-medium text-sm text-muted-foreground hover:text-primary transition-colors"
                     passHref
                   >
-                    Código <ExternalLinkIcon />
+                    {t('codeButtonText')} <ExternalLinkIcon />
                   </Link>
                 )}
               </div>
