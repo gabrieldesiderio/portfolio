@@ -1,13 +1,8 @@
-import {
-  ExternalLinkIcon,
-  GitHubLogoIcon,
-  GlobeIcon,
-} from '@radix-ui/react-icons'
+import { ExternalLinkIcon } from '@radix-ui/react-icons'
 import Link from 'next/link'
 import { useMessages, useTranslations } from 'next-intl'
 
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 
 export function Projects() {
   const t = useTranslations('home.projects')
@@ -44,7 +39,7 @@ export function Projects() {
                   <Link
                     href={t(`items.${key}.app`)}
                     target="_blank"
-                    className="flex items-center gap-1 font-medium text-sm text-muted-foreground hover:text-white transition-colors"
+                    className="flex items-center gap-1 font-medium text-sm text-muted-foreground hover:text-primary transition-colors"
                     passHref
                   >
                     App <ExternalLinkIcon />
@@ -54,7 +49,7 @@ export function Projects() {
                   <Link
                     href={t(`items.${key}.repository`)}
                     target="_blank"
-                    className="flex items-center gap-1 font-medium text-sm text-muted-foreground hover:text-white transition-colors"
+                    className="flex items-center gap-1 font-medium text-sm text-muted-foreground hover:text-primary transition-colors"
                     passHref
                   >
                     Código <ExternalLinkIcon />
