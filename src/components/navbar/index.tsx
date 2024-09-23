@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 import { Button } from '@/components/ui/button'
 
+import { LangToggle } from './lang.toggle'
 import { ModeToggle } from './mode-toggle'
 
 export function Navbar() {
@@ -31,6 +32,7 @@ export function Navbar() {
         </div>
         <div className="flex items-center gap-3">
           <ModeToggle />
+          <LangToggle />
         </div>
       </nav>
     </header>
