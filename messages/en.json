@@ -92,6 +92,10 @@
           "repository": "https://github.com/gabrieldesiderio/forum-nest-clead-ddd"
         }
       }
+    },
+    "contact": {
+      "title": "Get in touch",
+      "content": "<p>If you have an innovative idea, an exciting opportunity, or need a quote, I'm here to help. And if you just want to chat, that's great too!</p><p>Feel free to connect with me on <a href='https://www.linkedin.com/in/gabrieldesiderio/' target='_blank' rel='noopener noreferrer'>LinkedIn</a> or drop me an email at <a href='mailto:gabrieldesd7@gmail.com' rel='noopener noreferrer'>gabrieldesd7@gmail.com</a>.</p><p>Let's create something amazing together!</p>"
     }
   }
 }

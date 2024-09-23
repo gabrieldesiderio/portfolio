@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.content a {
+  @apply text-primary underline hover:opacity-80 transition-all
+}

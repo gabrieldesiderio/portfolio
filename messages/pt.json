@@ -92,6 +92,10 @@
           "repository": "https://github.com/gabrieldesiderio/forum-nest-clead-ddd"
         }
       }
+    },
+    "contact": {
+      "title": "Entre em contato",
+      "content": "<p>Se você tem uma ideia inovadora, uma oportunidade empolgante ou precisa de um orçamento, estou aqui para ajudar. E se quiser, também podemos apenas bater um papo!</p><p>Sinta-se à vontade para me encontrar no <a href='https://www.linkedin.com/in/gabrieldesiderio/' target='_blank' rel='noopener noreferrer'>LinkedIn</a> ou enviar um e-mail para <a href='mailto:gabrieldesd7@gmail.com' rel='noopener noreferrer'>gabrieldesd7@gmail.com</a>.</p><p>Vamos criar algo incrível juntos!</p>"
     }
   }
 }
