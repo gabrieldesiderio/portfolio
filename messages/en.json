@@ -1,0 +1,85 @@
+{
+  "home": {
+    "about": {
+      "title": "Olá, eu sou o Gabriel 👋",
+      "summary": "Apaixonado por tecnologia e negócios, acredito que a verdadeira magia acontece quando ideias se transformam em soluções inovadoras. Para mim, cada desafio é uma oportunidade de crescimento e aprendizado, e é essa mentalidade que impulsiona minha carreira. Estou sempre em busca de novos horizontes para aplicar minha criatividade e conhecimento, transformando conceitos em realidades que impactam positivamente o mundo ao meu redor."
+    },
+    "xp": {
+      "title": "Experiências",
+      "items": [
+        {
+          "name": "Khipo",
+          "city": "São Paulo, BR",
+          "position": "Desenvolvedor full stack",
+          "period": "Jul 2024 - atual"
+        },
+        {
+          "name": "Joyjet",
+          "city": "Paris, FR",
+          "position": "Desenvolvedor full stack",
+          "period": "Fev 2022 - Jul 2024"
+        },
+        {
+          "name": "Studio Visual",
+          "city": "São Paulo, BR",
+          "position": "Team Lead & Tech Lead",
+          "period": "Nov 2022 - Fev 2022"
+        },
+        {
+          "name": "Mobister",
+          "city": "Natal, BR",
+          "position": "Squad Lead",
+          "period": "Mar 2019 - Nov 2021"
+        },
+        {
+          "name": "Nova M3",
+          "city": "Natal, RN",
+          "position": "Desenvolvedor web",
+          "period": "Mai 2018 - Dez 2018"
+        }
+      ]
+    },
+    "academic": {
+      "title": "Formação acadêmica",
+      "items": [
+        {
+          "level": "Tecnólogo",
+          "title": "Gestão de Tecnologia da Informação",
+          "company": "Universidade Potiguar",
+          "period": "2019 - 2022"
+        },
+        {
+          "level": "Técnico",
+          "title": "Informática",
+          "company": "EEEP Professora Maria Célia Pinheiro Falcão",
+          "period": "2012 - 2015"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projetos",
+      "items": [
+        {
+          "title": "QR Code Generator",
+          "description": "Projeto construído para gerar QR Codes de forma dinâmica a partir de uma URL inserida pelo usuário.",
+          "stack": ["react", "next.js", "typescript", "zod", "shadcn/ui", "tailwindcss"]
+        },
+        {
+          "title": "Tailwind ADMIN",
+          "description": "UI construída com tailwindcss utilizando o conceito de Composition Pattern.",
+          "stack": ["react", "next.js", "typescript", "tailwindcss", "framer motion", "drag and drop"]
+        },
+        {
+          "title": "Kanban Board",
+          "description": "Um quadro kanban para gerenciamento de tarefas.",
+          "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "framer motion"]
+        },
+        {
+          "title": "Fórum API",
+          "description": "Um serviço de fórum, utilizando os conceitos de Clean Architecture, SOLID e DDD.",
+          "stack": ["node.js", "nestjs", "typescript", "prisma", "vitest", "redis"]
+        }
+      ]
+    }
+  }
+}

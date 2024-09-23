@@ -1,7 +1,9 @@
-import './globals.css'
+import '../globals.css'
 
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages } from 'next-intl/server'
 
 import { Navbar } from '@/components/navbar'
 import { Providers } from '@/providers'
@@ -17,18 +19,24 @@ export const metadata: Metadata = {
   description: 'My personal portfolio',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+  params: { locale },
+}: {
   children: React.ReactNode
-}>) {
+  params: { locale: string }
+}) {
+  const messages = await getMessages()
+
   return (
-    <html lang="pt-BR" className={`${inter.variable} antialiased`}>
+    <html lang={locale} className={`${inter.variable} antialiased`}>
       <body className="min-h-dvh mx-4 my-16 max-w-xl sm:mx-auto">
-        <Providers>
-          <Navbar />
-          {children}
-        </Providers>
+        <NextIntlClientProvider messages={messages}>
+          <Providers>
+            <Navbar />
+            {children}
+          </Providers>
+        </NextIntlClientProvider>
       </body>
     </html>
   )
