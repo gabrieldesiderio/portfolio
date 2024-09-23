@@ -12,7 +12,7 @@ export function Academic() {
       <ul className="space-y-6">
         {keys.map((key) => (
           <li key={key}>
-            <Badge variant="outline" className="mb-1">
+            <Badge variant="secondary" className="mb-1">
               {t(`items.${key}.level`)}
             </Badge>
             <div className="flex items-center justify-between">

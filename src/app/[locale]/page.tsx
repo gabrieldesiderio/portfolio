@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <main className="space-y-16">
       <About />
+      <Skills />
       <Xp />
       <Academic />
-      <Skills />
       <Projects />
       <Contact />
     </main>

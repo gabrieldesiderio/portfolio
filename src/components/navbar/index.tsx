@@ -8,14 +8,7 @@ import { ModeToggle } from './mode-toggle'
 export function Navbar() {
   return (
     <header className="mb-20 space-y-5">
-      <div className="flex items-center justify-center">
-        <ModeToggle />
-      </div>
       <nav className="flex items-center justify-between gap-8 leading-lose">
-        <div className="flex items-center gap-6">
-          <Link href="/">Home</Link>
-          <Link href="/">Stack</Link>
-        </div>
         <div className="flex items-center gap-2">
           <Link
             href="https://www.linkedin.com/in/gabrieldesiderio/"
@@ -35,6 +28,9 @@ export function Navbar() {
               <GitHubLogoIcon className="size-5" />
             </Button>
           </Link>
+        </div>
+        <div className="flex items-center gap-3">
+          <ModeToggle />
         </div>
       </nav>
     </header>

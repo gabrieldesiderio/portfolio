@@ -1,30 +1,20 @@
+import { useTranslations } from 'next-intl'
+
 import { Badge } from '@/components/ui/badge'
+import { data } from '@/lib/data'
 
 export function Skills() {
+  const t = useTranslations('home.skills')
+
   return (
     <section>
-      <h2 className="text-xl font-semibold mb-8">Habilidades</h2>
-      <div className="flex flex-wrap gap-1.5">
-        <Badge>Javascript</Badge>
-        <Badge>Typescript</Badge>
-        <Badge>Node.js</Badge>
-        <Badge>NestJS</Badge>
-        <Badge>Fastify</Badge>
-        <Badge>React</Badge>
-        <Badge>Next.js</Badge>
-        <Badge>React Native</Badge>
-        <Badge>Expo</Badge>
-        <Badge>PHP</Badge>
-        <Badge>Laravel</Badge>
-        <Badge>Blade</Badge>
-        <Badge>WordPress</Badge>
-        <Badge>Bedrock</Badge>
-        <Badge>Sage</Badge>
-        <Badge>MySQL</Badge>
-        <Badge>Postgres</Badge>
-        <Badge>Docker</Badge>
-        <Badge>Tailwind</Badge>
-        <Badge>Boostrap</Badge>
+      <h2 className="text-xl font-semibold mb-8">{t('title')}</h2>
+      <div className="flex flex-wrap gap-2">
+        {data.skills.map((skill) => (
+          <Badge variant="secondary" key={skill}>
+            {skill}
+          </Badge>
+        ))}
       </div>
     </section>
   )
