@@ -21,7 +21,7 @@ export function Projects() {
 
           return (
             <li key={key}>
-              <h3 className="text-lg font-semibold">
+              <h3 className="sm:text-lg font-semibold">
                 {t(`items.${key}.title`)}
               </h3>
               <p className="text-sm text-muted-foreground">

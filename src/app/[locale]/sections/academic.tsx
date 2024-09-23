@@ -16,10 +16,10 @@ export function Academic() {
               {t(`items.${key}.level`)}
             </Badge>
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-semibold">
+              <h3 className="sm:text-lg font-semibold">
                 {t(`items.${key}.title`)}
               </h3>
-              <span className="text-muted-foreground text-sm">
+              <span className="text-muted-foreground text-sm whitespace-nowrap">
                 {t(`items.${key}.period`)}
               </span>
             </div>

@@ -30,7 +30,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} antialiased`}>
-      <body className="min-h-dvh mx-4 my-16 max-w-xl sm:mx-auto">
+      <body className="min-h-dvh mx-4 my-10 sm:my-16 max-w-xl sm:mx-auto">
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <Navbar />
