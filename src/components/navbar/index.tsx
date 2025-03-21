@@ -8,7 +8,7 @@ import { ModeToggle } from './mode-toggle'
 
 export function Navbar() {
   return (
-    <header className="mb-10 sm:mb-20 sticky top-0 h-14 bg-background flex items-center justify-between gap-8 leading-lose shadow-sm">
+    <header className="mb-10 sm:mb-20 sticky top-0 h-14 bg-transparent backdrop-blur-sm flex items-center justify-between gap-8 leading-lose border-b border-primary-foreground">
       <nav className="flex items-center gap-2">
         <Link
           href="https://www.linkedin.com/in/gabrieldesiderio/"

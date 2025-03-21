@@ -1,3 +1,5 @@
+import { BackgroundParticles } from '@/components/navbar/particles'
+
 import { About } from './sections/about'
 import { Academic } from './sections/academic'
 import { Contact } from './sections/contact'
@@ -14,6 +16,8 @@ export default function Home() {
       <Academic />
       <Projects />
       <Contact />
+
+      <BackgroundParticles />
     </main>
   )
 }

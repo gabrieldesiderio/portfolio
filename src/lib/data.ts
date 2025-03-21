@@ -5,6 +5,7 @@ export const data = {
     'Node.js',
     'NestJS',
     'Fastify',
+    'Prisma ORM',
     'React',
     'Next.js',
     'React Native',
@@ -18,7 +19,9 @@ export const data = {
     'MySQL',
     'Postgres',
     'Docker',
+    'Storybook',
     'Tailwind',
     'Boostrap',
+    'Styled Components',
   ],
 }
