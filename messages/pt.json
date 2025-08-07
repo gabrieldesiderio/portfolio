@@ -14,7 +14,7 @@
           "name": "Khipo",
           "city": "São Paulo, BR",
           "position": "Desenvolvedor full stack",
-          "period": "Jul 2024 - atual"
+          "period": "Jul 2024 - Jul 2025"
         },
         "1": {
           "name": "Joyjet",
@@ -64,27 +64,34 @@
       "codeButtonText": "Código",
       "items": {
         "0": {
+          "title": "Crypto Dash",
+          "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "coingecko", "react query"],
+          "description": "Aplicação web desenvolvida com Next.js que exibe as 20 principais criptomoedas por capitalização de mercado. Inclui gráficos dos últimos 7 dias e busca em tempo real por nome ou símbolo.",
+          "app": "https://crypto-dash.gabrieldesiderio.dev/",
+          "repository": "https://github.com/gabrieldesiderio/crypto-dash"
+        },
+        "1": {
           "title": "QR Code Generator",
           "stack": ["react", "next.js", "typescript", "zod", "shadcn/ui", "tailwindcss"],
           "description": "Projeto desenvolvido para gerar QR Codes de forma dinâmica a partir de uma URL fornecida pelo usuário.",
           "app": "https://qrcode-generator.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/qrcode-generator"
         },
-        "1": {
+        "2": {
           "title": "Tailwind ADMIN",
           "description": "Admin UI desenvolvida com Tailwind CSS, utilizando o conceito de Composition Pattern.",
           "stack": ["react", "next.js", "typescript", "tailwindcss", "framer motion"],
           "app": "https://tailwind-admin.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/tailwind-next"
         },
-        "2": {
+        "3": {
           "title": "Kanban Board",
           "description": "Quadro Kanban para gerenciamento eficiente de tarefas.",
           "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "framer motion", "drag and drop"],
           "app": "https://kanban-board.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/kanban-board"
         },
-        "3": {
+        "4": {
           "title": "Fórum API",
           "description": "Serviço de fórum desenvolvido com os princípios de Clean Architecture, SOLID e Domain-Driven Design (DDD).",
           "stack": ["node.js", "nestjs", "typescript", "prisma", "vitest", "redis", "jwt", "zod"],
