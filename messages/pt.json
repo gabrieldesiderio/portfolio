@@ -11,30 +11,42 @@
       "title": "Experiências",
       "items": {
         "0": {
+          "name": "Boticário",
+          "city": "São Paulo, BR",
+          "position": "Desenvolvedor full stack",
+          "period": "Out 2025 - Dez 2025"
+        },
+        "1": {
+          "name": "GX2 Tecnologia",
+          "city": "Rio Grande do Sul, BR",
+          "position": "Desenvolvedor full stack",
+          "period": "Jul 2025 - Set 2025"
+        },
+        "2": {
           "name": "Khipo",
           "city": "São Paulo, BR",
           "position": "Desenvolvedor full stack",
           "period": "Jul 2024 - Jul 2025"
         },
-        "1": {
+        "3": {
           "name": "Joyjet",
           "city": "Paris, FR",
           "position": "Desenvolvedor full stack",
           "period": "Fev 2022 - Jul 2024"
         },
-        "2": {
+        "4": {
           "name": "Studio Visual",
           "city": "São Paulo, BR",
           "position": "Team Lead & Tech Lead",
           "period": "Nov 2021 - Fev 2022"
         },
-        "3": {
+        "5": {
           "name": "Mobister",
           "city": "Natal, BR",
           "position": "Squad Lead",
           "period": "Mar 2019 - Nov 2021"
         },
-        "4": {
+        "6": {
           "name": "Nova M3",
           "city": "Natal, RN",
           "position": "Desenvolvedor web",
