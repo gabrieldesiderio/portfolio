@@ -1,11 +1,14 @@
 export const data = {
   skills: [
+    'Inteligência Artificial',
     'Javascript',
     'Typescript',
     'Node.js',
     'NestJS',
     'Fastify',
+    'Express',
     'Prisma ORM',
+    'Drizzle ORM',
     'React',
     'Next.js',
     'React Native',
@@ -21,7 +24,7 @@ export const data = {
     'Docker',
     'Storybook',
     'Tailwind',
-    'Boostrap',
+    'Bootstrap',
     'Styled Components',
   ],
 }

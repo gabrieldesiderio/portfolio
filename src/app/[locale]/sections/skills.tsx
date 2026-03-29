@@ -8,7 +8,7 @@ export function Skills() {
 
   return (
     <section>
-      <h2 className="text-xl font-semibold mb-8">{t('title')}</h2>
+      <h2 className="text-xl font-semibold mb-9">{t('title')}</h2>
       <div className="flex flex-wrap gap-2">
         {data.skills.map((skill) => (
           <Badge variant="secondary" key={skill}>

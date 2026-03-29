@@ -4,12 +4,12 @@ import { Badge } from '@/components/ui/badge'
 
 export function Academic() {
   const t = useTranslations('home.academic')
-  const keys = [0, 1] as const
+  const keys = [0, 1, 2] as const
 
   return (
     <section>
-      <h2 className="text-xl font-semibold mb-8">{t('title')}</h2>
-      <ul className="space-y-6">
+      <h2 className="text-xl font-semibold mb-9">{t('title')}</h2>
+      <ul className="space-y-7">
         {keys.map((key) => (
           <li key={key}>
             <Badge variant="secondary" className="mb-1">

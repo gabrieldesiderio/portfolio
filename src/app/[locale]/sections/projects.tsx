@@ -6,14 +6,14 @@ import { Badge } from '@/components/ui/badge'
 
 export function Projects() {
   const t = useTranslations('home.projects')
-  const keys = ['0', '1', '2', '3'] as const
+  const keys = ['0', '1', '2', '3', '4', '5'] as const
 
   const messages = useMessages()
 
   return (
     <section>
-      <h2 className="text-xl font-semibold mb-8">{t('title')}</h2>
-      <ul className="space-y-6">
+      <h2 className="text-xl font-semibold mb-9">{t('title')}</h2>
+      <ul className="space-y-7">
         {keys.map((key) => {
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-expect-error

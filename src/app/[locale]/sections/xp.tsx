@@ -2,12 +2,12 @@ import { useTranslations } from 'next-intl'
 
 export function Xp() {
   const t = useTranslations('home.xp')
-  const keys = [0, 1, 2, 3, 4] as const
+  const keys = [0, 1, 2, 3, 4, 5, 6, 7] as const
 
   return (
     <section>
-      <h2 className="text-xl font-semibold mb-8">{t('title')}</h2>
-      <ul className="space-y-6">
+      <h2 className="text-xl font-semibold mb-9">{t('title')}</h2>
+      <ul className="space-y-7">
         {keys.map((key) => (
           <li key={key}>
             <div className="flex items-center justify-between">

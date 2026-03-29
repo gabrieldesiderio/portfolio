@@ -11,42 +11,48 @@
       "title": "Experience",
       "items": {
         "0": {
+          "name": "Alfa Group",
+          "city": "Paraíba, BR",
+          "position": "Full stack developer",
+          "period": "Feb 2026 - now"
+        },
+        "1": {
           "name": "Boticário",
           "city": "São Paulo, BR",
           "position": "Full stack developer",
           "period": "Oct 2025 - Dec 2025"
         },
-        "1": {
+        "2": {
           "name": "GX2 Tecnologia",
           "city": "Rio Grande do Sul, BR",
-          "position": "Full stack developer",
+          "position": "Tech lead",
           "period": "Jul 2025 - Sep 2025"
         },
-        "2": {
+        "3": {
           "name": "Khipo",
           "city": "São Paulo, BR",
-          "position": "Full stack developer",
+          "position": "Tech lead",
           "period": "Jul 2024 - Jul 2025"
         },
-        "3": {
+        "4": {
           "name": "Joyjet",
           "city": "Paris, FR",
           "position": "Full stack developer",
           "period": "Feb 2022 - Jul 2024"
         },
-        "4": {
+        "5": {
           "name": "Studio Visual",
           "city": "São Paulo, BR",
           "position": "Team Lead & Tech Lead",
           "period": "Nov 2021 - Feb 2022"
         },
-        "5": {
+        "6": {
           "name": "Mobister",
           "city": "Natal, BR",
           "position": "Squad Lead",
           "period": "Mar 2019 - Nov 2021"
         },
-        "6": {
+        "7": {
           "name": "Nova M3",
           "city": "Natal, RN",
           "position": "Web developer",
@@ -58,12 +64,18 @@
       "title": "Academic Background",
       "items": {
         "0": {
-          "level": "Technologist",
-          "title": "Information Technology Management",
-          "company": "Universidade Potiguar",
-          "period": "2019 - 2022"
+          "level": "Postgraduate",
+          "title": "Full Stack Developer with AI",
+          "company": "Rocketseat Technology College",
+          "period": "2025 - 2026"
         },
         "1": {
+          "level": "Technologist",
+          "title": "Information Technology Management",
+          "company": "Potiguar University",
+          "period": "2019 - 2022"
+        },
+        "2": {
           "level": "Technician",
           "title": "Information Technology",
           "company": "EEEP Professora Maria Célia Pinheiro Falcão",
@@ -76,37 +88,106 @@
       "codeButtonText": "Code",
       "items": {
         "0": {
+          "title": "Caronar",
+          "stack": [
+            "typescript",
+            "react",
+            "next.js",
+            "nodejs",
+            "fastify",
+            "postgres",
+            "prisma",
+            "react native",
+            "expo",
+            "nativewind",
+            "tailwindcss"
+          ],
+          "description": "Corporate website, mobile app, back office (web) and REST API.",
+          "app": "https://www.caronar.com.br/",
+          "repository": ""
+        },
+        "1": {
+          "title": "Lolosa Tech",
+          "stack": [
+            "react",
+            "next.js",
+            "typescript",
+            "tailwindcss"
+          ],
+          "description": "Corporate website.",
+          "app": "https://lolosa.tech/",
+          "repository": ""
+        },
+        "2": {
           "title": "Crypto Dash",
-          "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "coingecko", "react query"],
+          "stack": [
+            "react",
+            "next.js",
+            "typescript",
+            "shadcn/ui",
+            "tailwindcss",
+            "coingecko",
+            "react query"
+          ],
           "description": "Web application built with Next.js that displays the top 20 cryptocurrencies by market capitalization. Includes 7-day price trend charts and real-time search by name or symbol.",
           "app": "https://crypto-dash.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/crypto-dash"
         },
-        "1": {
+        "3": {
           "title": "QR Code Generator",
-          "stack": ["react", "next.js", "typescript", "zod", "shadcn/ui", "tailwindcss"],
+          "stack": [
+            "react",
+            "next.js",
+            "typescript",
+            "zod",
+            "shadcn/ui",
+            "tailwindcss"
+          ],
           "description": "Project developed to dynamically generate QR Codes from a URL provided by the user.",
           "app": "https://qrcode-generator.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/qrcode-generator"
         },
-        "2": {
+        "4": {
           "title": "Tailwind ADMIN",
           "description": "Admin UI built with Tailwind CSS, employing the Composition Pattern concept.",
-          "stack": ["react", "next.js", "typescript", "tailwindcss", "framer motion"],
+          "stack": [
+            "react",
+            "next.js",
+            "typescript",
+            "tailwindcss",
+            "framer motion"
+          ],
           "app": "https://tailwind-admin.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/tailwind-next"
         },
-        "3": {
+        "5": {
           "title": "Kanban Board",
           "description": "Kanban board for efficient task management.",
-          "stack": ["react", "next.js", "typescript", "shadcn/ui", "tailwindcss", "framer motion", "drag and drop"],
+          "stack": [
+            "react",
+            "next.js",
+            "typescript",
+            "shadcn/ui",
+            "tailwindcss",
+            "framer motion",
+            "drag and drop"
+          ],
           "app": "https://kanban-board.gabrieldesiderio.dev/",
           "repository": "https://github.com/gabrieldesiderio/kanban-board"
         },
-        "4": {
+        "6": {
           "title": "Fórum API",
           "description": "Forum service developed using the principles of Clean Architecture, SOLID, and Domain-Driven Design (DDD).",
-          "stack": ["node.js", "nestjs", "typescript", "prisma", "vitest", "redis", "jwt", "zod"],
+          "stack": [
+            "node.js",
+            "nestjs",
+            "typescript",
+            "prisma",
+            "vitest",
+            "redis",
+            "jwt",
+            "zod"
+          ],
           "app": "",
           "repository": "https://github.com/gabrieldesiderio/forum-nest-clead-ddd"
         }
