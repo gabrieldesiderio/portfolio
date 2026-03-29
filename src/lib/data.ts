@@ -26,5 +26,6 @@ export const data = {
     'Tailwind',
     'Bootstrap',
     'Styled Components',
+    'AWS',
   ],
 }
